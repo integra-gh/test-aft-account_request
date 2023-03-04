@@ -20,8 +20,8 @@ module "networking_account" {
   }
 
   custom_fields = {
-    custom1 = "a"
-    custom2 = "b"
+    custom1 = ""
+    custom2 = ""
   }
 
   a
