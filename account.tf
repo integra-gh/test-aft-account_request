@@ -16,12 +16,12 @@ module "networking_account" {
 
   change_management_parameters = {
     change_requested_by = "josukutty"
-    change_reason       = "testing the account vending process"
+    change_reason       = "testing the account vending process2"
   }
 
   custom_fields = {
-    custom1 = ""
-    custom2 = ""
+    custom1 = "a"
+    custom2 = "b"
   }
 
   a
