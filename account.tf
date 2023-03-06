@@ -1,13 +1,13 @@
-module "networking_account" {
+module "networking_account1" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "aws-test-ct-networking"
-    AccountName  = "Networking"
+    AccountEmail = "aws-test-ct-networking@integratech.ae"
+    AccountName  = "NetworkingAccount"
     ManagedOrganizationalUnit = "Network"
     SSOUserEmail     = "aws-test-ct-mgmt@integratech.ae"
-    SSOUserFirstName = "aws-test-ct"
-    SSOUserLastName  = "mgmt"
+    SSOUserFirstName = "AWS Control Tower"
+    SSOUserLastName  = "Admin"
   }
 
   account_tags = {
@@ -24,6 +24,5 @@ module "networking_account" {
     custom2 = "b"
   }
 
-  a
-ccount_customizations_name = "name"
+account_customizations_name = "name"
 }
